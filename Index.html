@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./css/style.css" rel="stylesheet" type="text/css">
     <link href="./css/fonts.css" rel="stylesheet" type="text/css">
+    <link rel="icon" sizes="16x16" href="./img/Иконка _Лого_ (1_1).svg" type="image/x-icon">
     <title>Dandelions</title>
 </head>
 <body>
-    <header class="header">
+    <!-- <script src="./js/scrollButton.js"></script> -->
+    <header class="header" di="HOME">
         <div class="section">
             <div class="section-header">
                 <div class="logo">
@@ -17,9 +19,9 @@
                 </div>
                 <nav>
                     <ul class="header-nav">
-                        <li><a class="link" href="#HOME">Преимущества теста</a></li>
-                        <li><a class="link" href="#HOME">Уровни знания языка</a></li>
-                        <li><a class="link" href="#HOME">Свяжитесь с нами</a></li>
+                        <li><a class="link" href="#ADVAN_TEST">Преимущества теста</a></li>
+                        <li><a class="link" href="#LANGUAGE_LEVELS">Уровни знания языка</a></li>
+                        <li><a class="link" href="#">Свяжитесь с нами</a></li>
                     </ul>
                 </nav>
             </div>
@@ -45,7 +47,7 @@
                             <li class="home_li"><img class="check" src="./img/Иконка _Галочка_ 3.svg">По международным стандартам</li>
                         </ul>
                         <div class="buttonsHome">
-                            <form action="#HOME" target="_blank">
+                            <form action="./html/name.html">
                                 <button class="button_home">Пройти тест</button>
                             </form>
                         </div>
@@ -68,7 +70,7 @@
 
         </div>
         </section>
-        <section class="ADVAN_TEST">
+        <section class="ADVAN_TEST" id="ADVAN_TEST">
             <div class="section">
                 <div class="content">
                     <div class="content_img">
@@ -98,7 +100,7 @@
                 </div>
             </div>
         </section>
-        <section class="LANGUAGE_LEVELS">
+        <section class="LANGUAGE_LEVELS" id="LANGUAGE_LEVELS">
             <div class="section">
                 <div class="content">
                     <div class="text_test">
@@ -149,7 +151,10 @@
                     <div class="test-now">
                         <div class="test-now-text">
                             <h1 class="title_3">Протестируйте свой английский<br> прямо сейчас</h1>
-                            <button class="button test_button" type="submit">Пройти тест</button>
+                            <form href="">
+                                <button class="button test_button">Пройти тест</button>
+                            </form>
+                            <!-- <button class="button test_button" type="submit">Пройти тест</button> -->
                         </div>
                         <div class="test-now-img">
                             <img src="./img/Group 78 1 (1).svg">
@@ -182,4 +187,17 @@
         </div>
     </footer>
 </body>
+<script>
+const goTopBtn = document.querySelector(".button");
+
+goTopBtn.addEventListener("click", goTop);
+
+function goTop() {
+
+  if (window.pageYOffset > 0) {
+    window.scrollBy(0, -12); // второй аргумент - скорость
+    setTimeout(goTop, 0); // входим в рекурсию
+  }
+}
+</script>
 </html>

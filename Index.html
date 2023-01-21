@@ -47,7 +47,7 @@
                             <li class="home_li"><img class="check" src="./img/Иконка _Галочка_ 3.svg">По международным стандартам</li>
                         </ul>
                         <div class="buttonsHome">
-                            <form action="./html/name.html">
+                            <form action="./name.html">
                                 <button class="button_home">Пройти тест</button>
                             </form>
                         </div>
@@ -195,7 +195,7 @@ goTopBtn.addEventListener("click", goTop);
 function goTop() {
 
   if (window.pageYOffset > 0) {
-    window.scrollBy(0, -12); // второй аргумент - скорость
+    window.scrollBy(0, -10); // второй аргумент - скорость
     setTimeout(goTop, 0); // входим в рекурсию
   }
 }

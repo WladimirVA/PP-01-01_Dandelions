@@ -170,14 +170,6 @@ body {
     margin-right: 50px;
 }
 
-.rot-sheet {
-    margin: 0 -34px 90px 0px;
-}
-
-.rot-sheet-1 {
-    margin: 0 -35px 90px 0px;
-}
-
 .rot-img1 {
     width: 117px;
     margin-top: 11px;
@@ -192,7 +184,6 @@ body {
 .rot-img3 {
     width: 78px;
     margin-bottom: 20px;
-    margin-left: -20px;
 }
 
 img.rot {

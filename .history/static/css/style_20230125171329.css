@@ -217,12 +217,12 @@ img.rot {
     }
   }
 
-  img.rot1 {
-    animation: 1s linear 0s normal none infinite running rot1;
-    -webkit-animation: 4s linear 0s normal none infinite running rot1;
+  img.rot {
+    animation: 1s linear 0s normal none infinite running rot;
+    -webkit-animation: 4s linear 0s normal none infinite running rot;
     /* width: 100px; */
   }
-  @keyframes rot1 {
+  @keyframes rot {
     0% {
       transform: rotate(360deg);
     }
@@ -230,7 +230,7 @@ img.rot {
       transform: rotate(0deg);
     }
   }
-  @-webkit-keyframes rot1 {
+  @-webkit-keyframes rot {
     0% {
       transform: rotate(0deg);
     }

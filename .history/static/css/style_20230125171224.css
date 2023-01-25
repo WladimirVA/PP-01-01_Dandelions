@@ -202,35 +202,13 @@ img.rot {
   }
   @keyframes rot {
     0% {
-      transform: rotate(0deg);
+      transform: rotate(360deg);
     }
     100% {
-      transform: rotate(360deg);
+      transform: rotate(0deg);
     }
   }
   @-webkit-keyframes rot {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
-  }
-
-  img.rot1 {
-    animation: 1s linear 0s normal none infinite running rot1;
-    -webkit-animation: 4s linear 0s normal none infinite running rot1;
-    /* width: 100px; */
-  }
-  @keyframes rot1 {
-    0% {
-      transform: rotate(360deg);
-    }
-    100% {
-      transform: rotate(0deg);
-    }
-  }
-  @-webkit-keyframes rot1 {
     0% {
       transform: rotate(0deg);
     }

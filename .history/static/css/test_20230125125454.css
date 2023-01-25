@@ -1,11 +1,11 @@
 body {
-    max-width: 1366px;
-    max-height: 825px;
-    /* background-color: #C5C5C5; */
+    /* max-width: 1366px;
+    max-height: 825px; */
+    background-color: #C5C5C5;
 }
 
 .header {
-    
+ 
 }
 
 .quiz-box {

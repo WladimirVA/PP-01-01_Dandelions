@@ -118,8 +118,8 @@ body {
 }
 
 .image-home {
-    max-width: 747px;
-    max-height: 496px;
+    width: 747px;
+    height: 496px;
 }
 
 .title_2 {
@@ -133,10 +133,6 @@ body {
     line-height: 48px;
     align-items: center;
     text-align: center;
-}
-
-.section-home-1 {
-    background-color: #FDE4D3;
 }
 
 .section-home-2 {
@@ -163,7 +159,7 @@ body {
 }
 
 .content_img {
-    margin-top: -215px;
+    margin-top: -147px;
     text-align: end;
     margin-right: 50px;
 }
@@ -172,6 +168,10 @@ body {
     display: flex;
     justify-content: space-evenly;
     margin-top: 75px;
+}
+
+.text_test {
+    margin-top: 63px;
 }
 
 .test-info {
@@ -249,11 +249,7 @@ body {
 }
 
 .LANGUAGE_LEVELS {
-    background-color:  #FEF6F3;
-}
-
-.content {
-    padding-top: 66px;
+    background-color:  #f5a385;
 }
 
 .container-box {

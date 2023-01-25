@@ -1,11 +1,11 @@
 body {
     max-width: 1366px;
     max-height: 825px;
-    /* background-color: #C5C5C5; */
+    background-color: #C5C5C5;
 }
 
 .header {
-    
+ 
 }
 
 .quiz-box {
@@ -45,3 +45,20 @@ body {
     color:#FFFFFF;
     cursor: pointer;
 }
+
+/* .button-test {
+    margin-top: 30px;
+    width: 267px;
+    height: 56px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+    text-align: center;
+    background: #F03F5A;
+    cursor: pointer;
+    border-radius: 30px;
+    border: 0;
+} */

@@ -124,8 +124,7 @@ body {
 
 .title_2 {
     display: block;
-    margin-top: 100px;
-    padding-top: 68px;
+    margin-top: 40px;
     text-transform: none;
     font-family: 'Work Sans';
     font-style: normal;
@@ -137,7 +136,7 @@ body {
 }
 
 .WHY-TEST {
-    background-color: #FDF4D3;
+    background-color: #FD84D3;
     Height: 616px;
 }
 

@@ -135,8 +135,8 @@ body {
     text-align: center;
 }
 
-.WHY-TEST {
-    background-color: #FDE4D3;
+.section-home-1 {
+    background-color: #FD84D3;
     Width: 1366px;
     Height: 616px;
 }
@@ -161,6 +161,7 @@ body {
     color: white;
     height: 712px;
     padding-top: 63px;
+    margin-top: 160px;
 }
 
 .content_img {

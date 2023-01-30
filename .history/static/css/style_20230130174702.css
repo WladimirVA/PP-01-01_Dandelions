@@ -121,10 +121,6 @@ body {
     background-color: #BC9F3B;
 }
 
-.button_home:active {
-    background-color: #FDE07D;
-}
-
 .image-home {
     max-width: 747px;
     max-height: 496px;
@@ -388,15 +384,7 @@ img.rot {
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
-}
-
-.test_button:hover {
-    background-color: #B45060;
-}
-
-.test_button:active {
-    background-color: #F893A3;
-}
+    }
 
 .test-now {
     display: flex;

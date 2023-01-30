@@ -25,15 +25,15 @@ body {
 }
 
 .Name-logo a {
-    margin: 24px 0 0 0px;
+    margin: 48px 0 0 350px;
 }
 
 .Name-logo-img1 {
-    margin: 25px 0 0 440px;
+    margin: 15px 0 0 35px;
 }
 
 .Name-logo-img {
-    margin: 26px 0 0 -33px;
+    margin: 15px 0 0 35px;
 }
 
 
@@ -80,14 +80,6 @@ body {
     line-height: 24px;
     border: 0;
     cursor: pointer;
-}
-
-.submit_button:hover {
-    background-color: #BC9F3B;
-}
-
-.submit_button:active {
-    background-color: #FDE07D;
 }
 
 .info p {

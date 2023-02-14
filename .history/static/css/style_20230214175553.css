@@ -465,8 +465,3 @@ img.rot {
     color: #C9C9C9;
     list-style-type: none;
 }
-
-.footer-link:hover {
-    /* transform: scale(1.2); */
-    text-decoration:underline;
-}

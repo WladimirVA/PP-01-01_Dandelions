@@ -144,7 +144,7 @@ body {
     background-size: 100%;
     background-color: #FDE4D3;
     padding-top: 75px;
-    padding: 70px 0 0 195px;
+    padding: 70px 0 0 130px;
     margin-top: 165px;
 }
 
@@ -170,10 +170,6 @@ body {
     font-style: normal;
     font-size: 24px;
     line-height: 32px;
-}
-
-.appeal img {
-    margin-right: 180px;
 }
 
 .appeal-text p {

@@ -4,8 +4,7 @@ body {
     max-width: 1366px; 
     margin: auto;
     font-family: 'Inter', 'Work Sans', "NunitoSans-Light", Arial, Helvetica, sans-serif;
-    background: #4F68BB;
-}
+}   
 
 * {
     margin: 0;
@@ -17,22 +16,8 @@ body {
     height: 480px;
     position: fixed; top: 50%; left: 50%;
     transform: translate(-50%, -55%);
-    /* box-shadow: 0px 0px 25px; */
+    box-shadow: 0px 0px 25px;
     background-color: #FEF6F3;
-}
-
-.NAME_LOGO_INFO {
-    width: 780px;
-    height: 688px;
-    position: fixed; top: 50%; left: 50%;
-    transform: translate(-50%, -55%);
-    /* box-shadow: 0px 0px 25px; */
-    background-color: #FEF6F3;
-
-    position: absolute;
-    top:  50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
 }
 
 .Name-logo {
@@ -40,24 +25,17 @@ body {
 }
 
 .Name-logo a {
-    margin: 30px 0 0 0px;
+    margin: 55px 0 0 0px;
 }
 
 .Name-logo-img1 {
-    margin: 33px 0 0 280px;
-}
-
-.Name-logo-img1-info {
-    margin: 17px 0 0 485px;
+    margin: 55px 0 0 280px;
 }
 
 .Name-logo-img {
-    margin: 41px 0 0 -33px;
+    margin: 12px 0 0 -33px;
 }
 
-.Name-logo-img-info {
-    margin: 35px 0 0 -33px;
-}
 
 .name {
     margin: 60px 0 0 70px;
@@ -79,15 +57,13 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 34px;
 }
 
 .text-input {
-    margin: 15px 0 0 0;
+    margin: 40px 0 0 0;
     width: 388px;
     height: 48px;
-    border: 1px solid #000000;
-    border-radius: 10px;
 }
 .button {
     text-align: center;
@@ -120,8 +96,8 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
-    line-height: 40px;
-    margin: 55px 0 35px 0;
+    line-height: 36px;
+    margin: 35px 0 35px 0;
 }
 
 .info-li {
@@ -129,12 +105,12 @@ body {
 }
 
 .info ul {
-    margin: 63px 0 65px 100px;
+    margin: 0 0 25px 100px;
     width: 580px;
     height: 190px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    line-height: 32px;
+    line-height: 27px;
 }

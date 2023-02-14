@@ -8,10 +8,6 @@ body {
     max-height: 825px;
     background-color: #FEF6F3;
 }
-.section {
-    width:100%;
-    height:100%;
-}
 
 .quiz-box {
     margin: 146px 0 0 135px
@@ -19,7 +15,7 @@ body {
 
 .quiz-header ul {
     line-height: 24px;
-    /* width: 214px; */
+    width: 214px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -60,7 +56,7 @@ body {
 }
 
 .result {
-    margin: 100px 0 0 0;
+    margin: 100px 0 150px 0;
 }
 
 .title-result {
@@ -106,11 +102,10 @@ body {
 }
 
 .level-2 {
-    margin-left: 220px;
+    margin-left: 130px;
 }
 
 .lavel-1 {
-    font-family: 'Work Sans';
     margin-top: 50px;
     font-style: normal;
     font-weight: 700;
@@ -144,8 +139,7 @@ body {
     background-size: 100%;
     background-color: #FDE4D3;
     padding-top: 75px;
-    padding: 70px 0 0 195px;
-    margin-top: 165px;
+    margin: 150px 0 0 130px;
 }
 
 .appeal button {
@@ -170,10 +164,6 @@ body {
     font-style: normal;
     font-size: 24px;
     line-height: 32px;
-}
-
-.appeal img {
-    margin-right: 180px;
 }
 
 .appeal-text p {

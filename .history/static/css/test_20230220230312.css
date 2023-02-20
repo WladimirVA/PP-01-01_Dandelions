@@ -76,7 +76,7 @@
 
 .result1 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .info-result-p {

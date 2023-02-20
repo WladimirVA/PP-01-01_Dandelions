@@ -6,11 +6,11 @@
 .section {
     width:100%;
     height:100%;
-    background-color: #FEF6F3;
 }
 
 .quiz-box {
-    padding: 146px 0 0 135px;
+    margin: 146px 0 0 135px;
+    background-color: #FEF6F3;
 }
 
 .quiz-header ul {
@@ -76,7 +76,7 @@
 
 .result1 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .info-result-p {

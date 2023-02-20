@@ -18,6 +18,8 @@ body {
 }
 .header {
     padding: 0 92px 0 59px;
+    margin-left: 59px;
+    margin-right: 92px;
     background-color: #FEF6F3;
 }
 .section-header {
@@ -49,7 +51,7 @@ body {
 }
 
 .HOME {
-    padding: 64px 92px 108px 93px;
+    padding: 64px 92px 0 93px;
     background-color: #FEF6F3;
 }
 .section-home {
@@ -130,6 +132,7 @@ body {
 
 .title_2 {
     display: block;
+    margin-top: 100px;
     padding-top: 68px;
     text-transform: none;
     font-family: 'Work Sans';
@@ -164,7 +167,7 @@ body {
 .ADVAN_TEST {
     background: #4F68BB;
     color: white;
-    height: 665px;
+    height: 712px;
     padding-top: 63px;
     /* margin-top: 120px; */
 }
@@ -248,7 +251,7 @@ img.rot {
 .content-ADVAN_TEST {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 60px;
+    margin-top: 75px;
 }
 
 .test-info {
@@ -258,7 +261,6 @@ img.rot {
 
 
 .title_3 {
-    margin-top: 36px;
     display: block;
     text-transform: none;
     font-family: 'Work Sans';
@@ -286,8 +288,8 @@ img.rot {
 }
 
 .advan-test-p-2 {
-    margin: 95px 0 0 115px;
-    max-width: 1135px;
+    margin: 65px 0 0 115px;
+    max-width: 1117px;
 }
 
 .container {

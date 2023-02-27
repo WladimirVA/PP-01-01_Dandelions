@@ -49,6 +49,6 @@
 ## 3 Разработка проекта
 Дизайн:  Figma
 
-Frontend: HTML, CSS, JavaScript
+Frontend: HTML5, CSS, JavaScript
 
 Backend: GO v1.20, PostgreSQL v15

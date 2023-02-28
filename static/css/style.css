@@ -49,7 +49,7 @@ body {
 }
 
 .HOME {
-    padding: 64px 92px 108px 93px;
+    padding: 0 92px 108px 93px;
     background-color: #FEF6F3;
 }
 .section-home {
@@ -258,7 +258,7 @@ img.rot {
 
 
 .title_3 {
-    margin-top: 36px;
+    /* margin-top: 36px; */
     display: block;
     text-transform: none;
     font-family: 'Work Sans';

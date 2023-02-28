@@ -77,7 +77,6 @@
 .result1 {
     display: flex;
     justify-content: space-around;
-    padding: 0 92px 0 166px;
 }
 
 .info-result-p {
@@ -102,9 +101,9 @@
     line-height: 48px;
 }
 
-/* .level-2 {
+.level-2 {
     margin-left: 220px;
-} */
+}
 
 .lavel-1 {
     font-family: 'Work Sans';
@@ -132,8 +131,7 @@
 }
 
 .share-img img {
-    /* margin: 16px 30px 0 0; */
-    padding: 16px 30px 0 0;
+    margin: 16px 30px 0 0;
 }
 
 .appeal {

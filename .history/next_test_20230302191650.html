@@ -27,9 +27,53 @@
         <div class="button">
             <button class="button submit_button">Продолжить</button>         
         </div>
+
         <input type="hidden" name="name" id="" value="" >
         <input type="hidden" id="" value="" >
+
     </form>
     </div>
+<script>
+function browser_name(){
+      var browser_id = navigator.userAgent;    
+      // перечень условий
+    if (browser_id.search(/Chrome/) != -1) return 'Google Chrome';
+    if (browser_id.search(/Firefox/) != -1) return 'Firefox';
+    if (browser_id.search(/Opera/) != -1) return 'Opera';
+    if (browser_id.search(/Safari/) != -1) return 'Safari';
+    if (browser_id.search(/MSIE/) != -1) return 'Internet Explorer';
+    
+    return 'Не определен';
+}
+
+
+	var browser = browser_name();// даелее проверям если браузер Google Chrome то выводим соответствующий фрагмент кода при помощи document.write
+	if (browser=="Google Chrome") {
+		    document.write('<style>.content{border:10px solid #fff;}</style>');
+		   
+	}
+	
+	//и так для каждого браузера
+	else if (browser=="Firefox") {
+		    document.write('<style>.content{border:10px solid #1B6DB3;}</style>');
+	}
+	
+	else if (browser=="Safari") {
+		    document.write('<link rel="stylesheet" href="safari.css" />');
+	}
+	
+	else if (browser=="Internet Explorer") {
+		    document.write('<link rel="stylesheet" href="IE.css" />');
+	}
+	
+	else if (browser=="Opera") {
+		    document.write('<link rel="stylesheet" href="opera.css" />');
+	}
+	
+	else{
+		 document.write('<center><h2>Хм! Какой то непонятный браузер</h2></center>');
+	}
+
+</script>
 </body>
 </html>

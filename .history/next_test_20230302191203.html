@@ -27,9 +27,23 @@
         <div class="button">
             <button class="button submit_button">Продолжить</button>         
         </div>
+
         <input type="hidden" name="name" id="" value="" >
         <input type="hidden" id="" value="" >
+
     </form>
     </div>
+<script>
+    //Создаем объект 'user', который будет содержать информацию Detect.js
+//Вызываем detect.parse() с navigator.userAgent в качестве аргумента
+var user = detect.parse(navigator.userAgent);
+
+// Выводим нужные значения в консоли браузера
+console.log(
+  user.browser.family
+  user.browser.version
+  user.os.name
+)
+</script>
 </body>
 </html>

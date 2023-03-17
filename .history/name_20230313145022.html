@@ -23,7 +23,7 @@
         </div>
         <div class="name">
             <label class="label">Введите своё имя, чтобы мы знали, как <br>к Вам обращаться
-            <input class="text-input" type="text" maxlength="255" minlength="2" placeholder="Ваше имя" required	pattern="[A-Za-zА-Яа-яЁё]{2,}" title="Введите русские или латинские символы. Не менее 2 символов"></label>
+            <input class="text-input" type="text" maxlength="255" minlength="2" placeholder="Имя" required onkeyup="limitInput( 'en', this )></label>
         </div>       
         <div class="button">
                 <button class="button submit_button">Продолжить</button>
@@ -35,5 +35,24 @@
     </form>
     </div>
     <script src="./static/js/browser.js"></script>
+    <script>
+
+function limitInput( k, obj ) {
+    switch( k ){
+        case 'ru':
+            # В данном случае мы разрешаем ввод кириллических букв, цифр, пробела и дефис
+            obj.value = obj.value.replace(/[^а-яА-ЯёЁ0-9 -]/ig,'');
+        break;
+        case 'en':
+            # В данном случае мы разрешаем ввод латинских букв, цифр, пробела и дефис
+            obj.value = obj.value.replace(/[^a-zA-Z0-9 -]/ig,'');       
+        break;
+    }
+}
+
+//         document.querySelector('input').addEventListener('input', function() {
+//   this.value = this.value.replace(/[A-Za-zА-Яа-яЁё]/g, '');
+// });
+    </script>
 </body>
 </html>

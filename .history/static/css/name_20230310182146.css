@@ -96,15 +96,6 @@ body {
     box-size: border-box;
   }
 
-.text-input:hover{
-    border:2px solid #4F68BB; /* цвет обводки */
-}
-
-.text-input:active{
-     border:2px solid #000000;
-}
-
-
 .button {
     text-align: center;
 }
